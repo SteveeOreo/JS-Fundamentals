@@ -1,5 +1,4 @@
 const x = parseInt(process.argv[2]);
-
 if (isNaN(x) || x < 1) {
   console.log("Missing number of occurrences");
 } else {
